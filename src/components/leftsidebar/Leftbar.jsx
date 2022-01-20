@@ -1,26 +1,30 @@
-import { Dashboard,Clock,History, BarChart, PersonAddAlt1, Redeem } from '@mui/icons-material';
+import { Dashboard, Clock, History, BarChart, PersonAddAlt1, Redeem } from '@mui/icons-material';
 import './leftbar.css';
-import {CardTravelOutlined, ShoppingCart,Article} from '@material-ui/icons'
+import { CardTravelOutlined, ShoppingCart, Article, Person } from '@material-ui/icons'
 import ArticleIcon from '@mui/icons-material/Article';
 const Leftbar = () => {
     return (
-        
+
         <div className='left_sidebar-mine wrapper'>
             <nav id="sidebar">
                 <div class="sidebar-header">
-                    <h3>Bootstrap Sidebar</h3>
-                    <hr />
+
+                    <div className="circle"><div><Person className="personIcon" />
+                        {/* <img src="../../assets/img/dashboard_app.jpeg" alt="nen image" className="profile" /> */}</div></div>
+                    <p className="email">aryanmehta@gmail.com</p>
+                    <p className="email">your tier:<span>Premium</span></p>
                 </div>
+                <hr />
 
                 <div className="reportPart">
 
                     <ul className="list-unstyled CTAs">
                         Reports
                         <li>
-                            <a href="/" className="download"><History/>Dashboard</a>
+                            <a href="/" className="download"><History />Dashboard</a>
                         </li>
                         <li>
-                            <a href="/" className="download"><BarChart/>Dashboard Alternative</a>
+                            <a href="/" className="download"><BarChart />Dashboard Alternative</a>
                         </li>
 
                     </ul>
@@ -30,7 +34,7 @@ const Leftbar = () => {
                     Management
                     {/* <p className="reoprts">Reports</p> */}
                     <li className="active">
-                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle"><PersonAddAlt1/>Customers</a>
+                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle"><PersonAddAlt1 />Customers</a>
                         <ul className="collapse list-unstyled" id="homeSubmenu">
                             <li>
                                 <a href="/">List Customers</a>
@@ -44,7 +48,7 @@ const Leftbar = () => {
                         </ul>
                     </li>
                     <li className="active">
-                        <a href="#productSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle"><Redeem/>Products</a>
+                        <a href="#productSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle"><Redeem />Products</a>
                         <ul className="collapse list-unstyled" id="productSubmenu">
                             <li>
                                 <a href="/">Product 1</a>
@@ -58,7 +62,7 @@ const Leftbar = () => {
                         </ul>
                     </li>
                     <li className="active">
-                        <a href="#orderSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle"><ShoppingCart/>Orders</a>
+                        <a href="#orderSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle"><ShoppingCart />Orders</a>
                         <ul className="collapse list-unstyled" id="orderSubmenu">
                             <li>
                                 <a href="/">order 1</a>
@@ -73,7 +77,7 @@ const Leftbar = () => {
                     </li>
 
                     <li className="active">
-                        <a href="#invoiceSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle"><ArticleIcon/>Invoices</a>
+                        <a href="#invoiceSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle"><ArticleIcon />Invoices</a>
                         <ul className="collapse list-unstyled" id="invoiceSubmenu">
                             <li>
                                 <a href="/">invoice 1</a>
@@ -118,7 +122,7 @@ const Leftbar = () => {
                             </li>
                         </ul>
                     </li>
-                    
+
                 </ul>
 
                 <ul className="list-unstyled CTAs">
