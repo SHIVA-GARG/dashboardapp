@@ -11,8 +11,11 @@ function App() {
       <Topbar />
       {/* <Navbar/> */}
       <hr />
+      <div className='lowerpart'>
       <Leftbar />
       <Rightpart />
+      </div>
+
     </div>
   );
 }

@@ -6,11 +6,13 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
+    
 }
 .left_sidebar-mine{
     background-color: white !important;
     height: 100%;
     font-size: 19px;
+    overflow-y: scroll;
 }
 
 p {

@@ -1,5 +1,6 @@
-import React from 'react';
+import './rightPart.css';
 import ReactECharts from "echarts-for-react";
+
 
 const PerformanceGraph = () => {
     const option = {
@@ -134,7 +135,7 @@ const Performance = () => {
 const Rightpart = () => {
     
     return (
-        <div>
+        <div className='rightpart'>
             <Performance />
                    
         </div>

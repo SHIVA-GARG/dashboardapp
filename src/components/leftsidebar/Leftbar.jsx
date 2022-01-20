@@ -1,6 +1,7 @@
 import { Dashboard,Clock,History, BarChart, PersonAddAlt1, Redeem } from '@mui/icons-material';
 import './leftbar.css';
-
+import {CardTravelOutlined, ShoppingCart,Article} from '@material-ui/icons'
+import ArticleIcon from '@mui/icons-material/Article';
 const Leftbar = () => {
     return (
         
@@ -16,10 +17,10 @@ const Leftbar = () => {
                     <ul className="list-unstyled CTAs">
                         Reports
                         <li>
-                            <a href="#" className="download"><History/>Dashboard</a>
+                            <a href="/" className="download"><History/>Dashboard</a>
                         </li>
                         <li>
-                            <a href="#" className="download"><BarChart/>Dashboard Alternative</a>
+                            <a href="/" className="download"><BarChart/>Dashboard Alternative</a>
                         </li>
 
                     </ul>
@@ -32,56 +33,56 @@ const Leftbar = () => {
                         <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle"><PersonAddAlt1/>Customers</a>
                         <ul className="collapse list-unstyled" id="homeSubmenu">
                             <li>
-                                <a href="#">List Customers</a>
+                                <a href="/">List Customers</a>
                             </li>
                             <li>
-                                <a href="#">View Customer</a>
+                                <a href="/">View Customer</a>
                             </li>
                             <li>
-                                <a href="#">Edit Customer</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li className="active">
-                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle"><Redeem/>Products</a>
-                        <ul className="collapse list-unstyled" id="homeSubmenu">
-                            <li>
-                                <a href="#">Product 1</a>
-                            </li>
-                            <li>
-                                <a href="#">Product 2</a>
-                            </li>
-                            <li>
-                                <a href="#">Product 3</a>
+                                <a href="/">Edit Customer</a>
                             </li>
                         </ul>
                     </li>
                     <li className="active">
-                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Orders</a>
-                        <ul className="collapse list-unstyled" id="homeSubmenu">
+                        <a href="#productSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle"><Redeem/>Products</a>
+                        <ul className="collapse list-unstyled" id="productSubmenu">
                             <li>
-                                <a href="#">order 1</a>
+                                <a href="/">Product 1</a>
                             </li>
                             <li>
-                                <a href="#">order 2</a>
+                                <a href="/">Product 2</a>
                             </li>
                             <li>
-                                <a href="#">order 3</a>
+                                <a href="/">Product 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li className="active">
+                        <a href="#orderSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle"><ShoppingCart/>Orders</a>
+                        <ul className="collapse list-unstyled" id="orderSubmenu">
+                            <li>
+                                <a href="/">order 1</a>
+                            </li>
+                            <li>
+                                <a href="/">order 2</a>
+                            </li>
+                            <li>
+                                <a href="/">order 3</a>
                             </li>
                         </ul>
                     </li>
 
                     <li className="active">
-                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Invoices</a>
-                        <ul className="collapse list-unstyled" id="homeSubmenu">
+                        <a href="#invoiceSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle"><ArticleIcon/>Invoices</a>
+                        <ul className="collapse list-unstyled" id="invoiceSubmenu">
                             <li>
-                                <a href="#">invoice 1</a>
+                                <a href="/">invoice 1</a>
                             </li>
                             <li>
-                                <a href="#">invoice 2</a>
+                                <a href="/">invoice 2</a>
                             </li>
                             <li>
-                                <a href="#">invoice 3</a>
+                                <a href="/">invoice 3</a>
                             </li>
                         </ul>
                     </li>
@@ -90,30 +91,30 @@ const Leftbar = () => {
                     Applications
                     {/* <p className="reoprts">Reports</p> */}
                     <li className="active">
-                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Projects Platform</a>
-                        <ul className="collapse list-unstyled" id="homeSubmenu">
+                        <a href="#projectSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Projects Platform</a>
+                        <ul className="collapse list-unstyled" id="projectSubmenu">
                             <li>
-                                <a href="#">Project Platfrom 1</a>
+                                <a href="/">Project Platfrom 1</a>
                             </li>
                             <li>
-                                <a href="#">Project Platfrom 2</a>
+                                <a href="/">Project Platfrom 2</a>
                             </li>
                             <li>
-                                <a href="#">Project Platfrom 3</a>
+                                <a href="/">Project Platfrom 3</a>
                             </li>
                         </ul>
                     </li>
                     <li className="active">
-                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Social Platform</a>
-                        <ul className="collapse list-unstyled" id="homeSubmenu">
+                        <a href="#socialSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Social Platform</a>
+                        <ul className="collapse list-unstyled" id="socialSubmenu">
                             <li>
-                                <a href="#">Social Platfrom 1</a>
+                                <a href="/">Social Platfrom 1</a>
                             </li>
                             <li>
-                                <a href="#">Social Platfrom 2</a>
+                                <a href="/">Social Platfrom 2</a>
                             </li>
                             <li>
-                                <a href="#">Social Platfrom 3</a>
+                                <a href="/">Social Platfrom 3</a>
                             </li>
                         </ul>
                     </li>
