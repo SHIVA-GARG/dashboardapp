@@ -19,7 +19,7 @@ const Leftbar = () => {
                 <div className="reportPart">
 
                     <ul className="list-unstyled CTAs">
-                        Reports
+                        <span className="title">Reports</span>
                         <li>
                             <a href="/" className="download"><History />Dashboard</a>
                         </li>
@@ -31,7 +31,7 @@ const Leftbar = () => {
                 </div>
 
                 <ul class="list-unstyled components">
-                    Management
+                   <span className="title"> Management</span>
                     {/* <p className="reoprts">Reports</p> */}
                     <li className="active">
                         <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle"><PersonAddAlt1 />Customers</a>
@@ -92,7 +92,7 @@ const Leftbar = () => {
                     </li>
                 </ul>
                 <ul class="list-unstyled components">
-                    Applications
+                    <span className="title">Applications</span>
                     {/* <p className="reoprts">Reports</p> */}
                     <li className="active">
                         <a href="#projectSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Projects Platform</a>

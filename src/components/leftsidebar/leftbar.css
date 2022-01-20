@@ -24,11 +24,25 @@ body {
     display: flex;
     align-items: center;
 }
+.title{
+    font-size: 1.2rem;
+    /* font-weight: 600; */
+    left: -1.rem;
+    position: relative;
+    /* margin-left: -10px; */
+    /* position: absolute; */
+    top: 0rem;
+    /* margin-bottom: -2rem; */
+}
 .left_sidebar-mine{
     background-color: white !important;
     height: 100%;
-    font-size: 19px;
+    font-size: 13px;
     overflow-y: scroll;
+    position: relative;
+    top: 13px;
+    left: 0px;
+    width: 10% !important;
 }
 
 p {
