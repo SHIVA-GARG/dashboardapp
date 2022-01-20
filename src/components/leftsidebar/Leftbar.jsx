@@ -1,8 +1,9 @@
-import { Dashboard,Clock,History, BarChart } from '@mui/icons-material';
+import { Dashboard,Clock,History, BarChart, PersonAddAlt1, Redeem } from '@mui/icons-material';
 import './leftbar.css';
 
 const Leftbar = () => {
     return (
+        
         <div className='left_sidebar-mine wrapper'>
             <nav id="sidebar">
                 <div class="sidebar-header">
@@ -28,7 +29,7 @@ const Leftbar = () => {
                     Management
                     {/* <p className="reoprts">Reports</p> */}
                     <li className="active">
-                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Customers</a>
+                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle"><PersonAddAlt1/>Customers</a>
                         <ul className="collapse list-unstyled" id="homeSubmenu">
                             <li>
                                 <a href="#">List Customers</a>
@@ -42,7 +43,7 @@ const Leftbar = () => {
                         </ul>
                     </li>
                     <li className="active">
-                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Products</a>
+                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle"><Redeem/>Products</a>
                         <ul className="collapse list-unstyled" id="homeSubmenu">
                             <li>
                                 <a href="#">Product 1</a>
