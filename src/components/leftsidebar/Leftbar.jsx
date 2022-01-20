@@ -9,7 +9,9 @@ import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 import ShareOutlinedIcon from "@mui/icons-material/ShareOutlined";
 import KeyboardArrowDownOutlinedIcon from "@mui/icons-material/KeyboardArrowDownOutlined";
 import KeyboardArrowUpOutlinedIcon from "@mui/icons-material/KeyboardArrowUpOutlined";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import "./leftbar.css";
+import { color } from "echarts";
 
 function DropDown(props) {
   const [open, setOpen] = React.useState(false);
@@ -46,6 +48,19 @@ function DropDown(props) {
 const Leftbar = () => {
   return (
     <aside className="main-sidebar">
+      <div className="card d-flex justify-content-center align-items-center">
+        <div className="card-body">
+          <AccountCircleIcon
+            style={{
+              fontSize: "50px",
+              color: "#c0c0c0",
+              marginBlockEnd: "12px",
+            }}
+          />
+          <h6 style={{ margin: "0" }}>demo@devias.io</h6>
+          <p>Your tier: Premium</p>
+        </div>
+      </div>
       <nav className="sidebar">
         <ul className="sidebar-menu">
           <li className="header">Reports</li>

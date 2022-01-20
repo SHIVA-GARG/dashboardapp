@@ -3,6 +3,7 @@
   list-style: none;
   padding: 0;
   text-align: left;
+  border-right: 2px solid #eee;
 }
 
 .sidebar a {
@@ -22,13 +23,14 @@
 }
 
 .sidebar-menu li {
-  padding: 16px;
+  padding: 12px;
   margin: 0;
   width: 100%;
 }
 
 .btn {
   width: 100%;
+  padding-left: 0;
 }
 .btn:focus {
   outline: none;
@@ -39,4 +41,11 @@
   background: white;
   border: none;
   margin: 0 !important;
+}
+
+aside .card {
+  border: none;
+  border-bottom: 2px solid #eee;
+  border-right: 2px solid #eee;
+  border-radius: 0;
 }

@@ -1,3 +1,25 @@
-.rightpart{
-    flex: 9;
+.rightpart {
+  padding: 16px;
+}
+
+.rightpart .card {
+  border: 2px solid #eee;
+}
+
+.rightpart .card-body {
+  text-align: left;
+}
+
+.card-footer {
+  background-color: #fff;
+  margin: 0;
+  padding: 10px 0;
+}
+.card-footer > div {
+  padding: 12px;
+  border-bottom: 2px solid #eee;
+}
+
+.card-footer > div:last-child {
+  border-bottom: none;
 }
