@@ -125,14 +125,7 @@ const Leftbar = () => {
 
                 </ul>
 
-                <ul className="list-unstyled CTAs">
-                    <li>
-                        <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" className="download">Download source</a>
-                    </li>
-                    <li>
-                        <a href="https://bootstrapious.com/p/bootstrap-sidebar" className="article">Back to article</a>
-                    </li>
-                </ul>
+                
             </nav>
 
         </div>
