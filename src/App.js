@@ -19,7 +19,7 @@ function App() {
       <Topbar />
       {/* <Navbar/> */}
       <hr />
-      <div className='lowerpart'>
+      <div className="fluid-container-xxl my-md-4 bd-layout">
       <Leftbar />
       <Rightpart />
       </div>
