@@ -19,10 +19,11 @@ function App() {
       <Topbar />
       {/* <Navbar/> */}
       <hr />
-      <Box>
+      <div className='lowerpart'>
       <Leftbar />
       <Rightpart />
-      </Box>
+      </div>
+
     </div>
   );
 }
