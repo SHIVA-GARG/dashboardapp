@@ -43,7 +43,7 @@ const Topbar = () => {
                             // marginBlockEnd: "12px",
                         }}
                     />
-                    <p style={{ margin: "0", color: "white", margin: "2px 0 0 5px" }}>demo@devias.io</p>
+                    <p style={{ color: "white", margin: "2px 0 0 5px" }}>demo@devias.io</p>
 
                 </div>
                 {/* <div className="languageDropdown">
