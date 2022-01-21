@@ -5,7 +5,7 @@ import { Mail, ThreeDRotation } from '@mui/icons-material';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 const Topbar = () => {
     return (
-        <div className='topbar'>
+        <div className='topbar' style={{height:"60px",marginBottom:"-30px"}}>
 
             <div className="companylogo">
                 <div className="phoneContact">
