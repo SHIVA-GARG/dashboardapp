@@ -1,6 +1,6 @@
 import "./rightPart.css";
 import ReactECharts from "echarts-for-react";
-import { ArrowRightAlt, ChevronRight } from "@material-ui/icons";
+import {  ChevronRight } from "@material-ui/icons";
 
 const PerformanceGraph = () => {
   const option = {
