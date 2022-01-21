@@ -11,7 +11,6 @@ import KeyboardArrowDownOutlinedIcon from "@mui/icons-material/KeyboardArrowDown
 import KeyboardArrowUpOutlinedIcon from "@mui/icons-material/KeyboardArrowUpOutlined";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import "./leftbar.css";
-import { color } from "echarts";
 
 function DropDown(props) {
   const [open, setOpen] = React.useState(false);
@@ -67,12 +66,12 @@ const Leftbar = () => {
           <li className="active">
             {" "}
             <PieChartRoundedIcon style={{ marginRight: "10px" }} />
-            <a href="#">Dashboard</a>{" "}
+            <a href="#1">Dashboard</a>{" "}
           </li>
           <li>
             {" "}
             <BarChartRoundedIcon style={{ marginRight: "10px" }} />
-            <a href="#">Dashboard Alternative</a>{" "}
+            <a href="#2">Dashboard Alternative</a>{" "}
           </li>
           <DropDown
             icon={<PeopleOutlineOutlinedIcon style={{ marginRight: "10px" }} />}

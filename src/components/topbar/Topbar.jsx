@@ -3,10 +3,10 @@ import './topbar.css'
 // import {PhoneIcon} from '@mui/icons-material'
 import { Mail, ThreeDRotation, Search, Group } from '@mui/icons-material';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
-import { Person, PersonAdd, Settings, NotificationsNone,AccountCircle } from '@material-ui/icons'
+import { Person, PersonAdd, Settings, NotificationsNone, AccountCircle } from '@material-ui/icons'
 const Topbar = () => {
     return (
-        <div className='topbar' style={{ height: "60px", margin: "0 0 -30px 0" ,width:"100%"}}>
+        <div className='topbar' style={{ height: "60px", margin: "0 0 -30px 0", width: "100%" }}>
 
             <div className="companylogo">
                 <div className="phoneContact">
@@ -19,32 +19,32 @@ const Topbar = () => {
                     aryanmehta@gmail.com
                 </div>
             </div>
-            <div className="rightbar d-flex" style={{justifyContent:"space-between"}}>
+            <div className="rightbar d-flex" style={{ justifyContent: "space-between" }}>
                 <div className="themes">
-                    <Search style={{marginLeft:"10px",cursor:"pointer"}}/>
+                    <Search style={{ marginLeft: "10px", cursor: "pointer" }} />
                 </div>
                 <div className="needHelp">
-                    <Group style={{marginLeft:"10px",cursor:"pointer"}}/>
+                    <Group style={{ marginLeft: "10px", cursor: "pointer" }} />
                 </div>
                 <div className="needHelp">
-                    <NotificationsNone  style={{marginLeft:"10px",cursor:"pointer"}}/>
+                    <NotificationsNone style={{ marginLeft: "10px", cursor: "pointer" }} />
                 </div>
                 <div className="needHelp">
-                    <Settings  style={{marginLeft:"10px",cursor:"pointer"}}/>
+                    <Settings style={{ marginLeft: "10px", cursor: "pointer" }} />
                 </div>
 
-                <div className='d-flex' style={{marginRight:"-10px"}}>
+                <div className='d-flex' style={{ marginRight: "-10px" }}>
                     <AccountCircle
                         style={{
                             fontSize: "30px",
-                            marginLeft:"10px",
+                            marginLeft: "10px",
                             color: "#c0c0c0",
-                            cursor:"pointer"
+                            cursor: "pointer"
                             // marginBlockEnd: "12px",
                         }}
                     />
-                    <p style={{ margin: "0",color:"white" ,margin:"2px 0 0 5px"}}>demo@devias.io</p>
-                    
+                    <p style={{ margin: "0", color: "white", margin: "2px 0 0 5px" }}>demo@devias.io</p>
+
                 </div>
                 {/* <div className="languageDropdown">
                     <div className="dropdown pull-right dropdown-left-manual">

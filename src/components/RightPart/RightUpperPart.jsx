@@ -1,5 +1,5 @@
 import React from 'react';
-import { AccountCircleOutlined , AttachMoney,Folder} from '@material-ui/icons'
+import { AttachMoney,Folder} from '@material-ui/icons'
 
 const Rightupperpart = () => {
     return (
