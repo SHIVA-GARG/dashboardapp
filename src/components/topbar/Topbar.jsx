@@ -44,7 +44,7 @@ const Topbar = () => {
                         <button className="dropdownItem btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                             USD
                         </button>
-                        <ul className="dropdown-menu dropdownList ulItems" style={{left:"0px"} ,{right:"auto"}} aria-labelledby="dropdownMenuButton1">
+                        <ul className="dropdown-menu dropdownList ulItems" style={{left:"0px", right:"auto"}} aria-labelledby="dropdownMenuButton1">
                             <li><a className="dropdown-item dropdowitem" href="/">USD</a></li>
                             <li><a className="dropdown-item" href="/">INR</a></li>
                             <li><a className="dropdown-item" href="/">EUR</a></li>
