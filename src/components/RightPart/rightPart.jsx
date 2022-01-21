@@ -1,5 +1,6 @@
 import "./rightPart.css";
 import ReactECharts from "echarts-for-react";
+import { ArrowRightAlt, ChevronRight } from "@material-ui/icons";
 
 const PerformanceGraph = () => {
   const option = {
@@ -153,7 +154,9 @@ const User = () => {
           <div>/cart/checkout</div> <div>8</div>
         </div>
         <div className="d-flex flex-row justify-content-end">
-          <div>See All</div>
+          <div>See All
+            <ChevronRight htmlColor="gray" style={{fontSize:"30px",marginRight:"-10px"}}/>
+          </div>
         </div>
       </div>
     </div>

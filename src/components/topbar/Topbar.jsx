@@ -6,7 +6,7 @@ import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import { Person, PersonAdd, Settings, NotificationsNone,AccountCircle } from '@material-ui/icons'
 const Topbar = () => {
     return (
-        <div className='topbar' style={{ height: "60px", marginBottom: "-30px" }}>
+        <div className='topbar' style={{ height: "60px", margin: "0 0 -30px 0" ,width:"100%"}}>
 
             <div className="companylogo">
                 <div className="phoneContact">
@@ -21,16 +21,16 @@ const Topbar = () => {
             </div>
             <div className="rightbar d-flex" style={{justifyContent:"space-between"}}>
                 <div className="themes">
-                    <Search style={{marginLeft:"10px"}}/>
+                    <Search style={{marginLeft:"10px",cursor:"pointer"}}/>
                 </div>
                 <div className="needHelp">
-                    <Group style={{marginLeft:"10px"}}/>
+                    <Group style={{marginLeft:"10px",cursor:"pointer"}}/>
                 </div>
                 <div className="needHelp">
-                    <NotificationsNone  style={{marginLeft:"10px"}}/>
+                    <NotificationsNone  style={{marginLeft:"10px",cursor:"pointer"}}/>
                 </div>
                 <div className="needHelp">
-                    <Settings  style={{marginLeft:"10px"}}/>
+                    <Settings  style={{marginLeft:"10px",cursor:"pointer"}}/>
                 </div>
 
                 <div className='d-flex' style={{marginRight:"-10px"}}>
@@ -39,6 +39,7 @@ const Topbar = () => {
                             fontSize: "30px",
                             marginLeft:"10px",
                             color: "#c0c0c0",
+                            cursor:"pointer"
                             // marginBlockEnd: "12px",
                         }}
                     />

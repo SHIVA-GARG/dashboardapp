@@ -1,3 +1,7 @@
+body{
+    margin: 0 !important;
+    width: 100% !important;
+}
 .topbar{
     height: 36px;
     width: 100%;
